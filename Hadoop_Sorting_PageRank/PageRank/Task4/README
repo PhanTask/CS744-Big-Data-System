@@ -1,0 +1,5 @@
+Commands used for
+
+(1) Clear memory: sudo sh -c "sync; echo 3 > /proc/sys/vm/drop_caches"
+
+(2) Kill a worker: kill -9 PID
